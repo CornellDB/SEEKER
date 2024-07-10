@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+app/seeker.egg-info/PKG-INFO
+app/seeker.egg-info/SOURCES.txt
+app/seeker.egg-info/dependency_links.txt
+app/seeker.egg-info/requires.txt
+app/seeker.egg-info/top_level.txt

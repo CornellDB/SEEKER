@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: seeker
+Version: 0.0.0
+Summary: Search Engine for Efficient Knowledge Extraction and Retrieval
+Home-page: https://github.com/pypa/sampleproject
+Author: Santiago Martínez
+Author-email: agomn99@gmail.com
+Keywords: search,knowledge extraction,retrieval
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# SEEKER
+SEEKER: Search Engine for Efficient Knowledge Extraction and Retrieval
