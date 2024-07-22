@@ -1,0 +1,10 @@
+pandas
+bson
+ipykernel
+
+#Dev
+#twine
+#pytest
+#wheel
+#build
+#setuptools

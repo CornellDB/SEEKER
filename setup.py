@@ -15,7 +15,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="seeker-cornell-2024",  # Required
+    name="seeker-cornell-rebu",  # Required
     version="0.0.0",  # Required
     description="Search Engine for Efficient Knowledge Extraction and Retrieval",  # Optional
     long_description=long_description,  # Optional
@@ -32,7 +32,7 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
     ],
     keywords="search, knowledge extraction, retrieval",  # Updated keywords
-    package_dir={"": "src"},  
+    package_dir={"": "seeker"},  # Optional
     packages=find_packages(where="src"),  # Required
     python_requires=">=3.7, <4",
     install_requires=[
