@@ -1,9 +1,8 @@
 import re
 import pandas as pd
 
-from ..index_creation.dataset_model import DatasetModel
 from .text_processing import TextProcessor
-from .search_visualizer import SearchResultsVisualizer
+from ..data_visualization.search_visualizer import SearchResultsVisualizer
 
 class DataSeeker:
     def __init__(self, search_query):
