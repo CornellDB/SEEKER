@@ -1,1 +1,1 @@
-from .search_visualizer import SearchVisualizer
+from .search_visualizer import SearchResultsVisualizer

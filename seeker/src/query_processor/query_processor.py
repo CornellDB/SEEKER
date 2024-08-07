@@ -1,5 +1,5 @@
 
-
+from seeker.src.seeker_service_modules import DataSeeker
 class QueryProcessorClass:
     def __init__(self,dataset_models, query, search_in_metadata=False):
         self.service_modules = {
@@ -12,8 +12,8 @@ class QueryProcessorClass:
         self.search_query = query
         self.search_in_metadata = search_in_metadata
 
-    def build_query_plan(self, operations):
-        for operation in operations:
+    def build_query_plan(self):
+        for operation in self.search_query:
             self.call_service_module(operation)
 
     def call_service_module(self, operation):
