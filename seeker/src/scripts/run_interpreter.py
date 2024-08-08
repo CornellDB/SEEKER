@@ -1,10 +1,14 @@
-from ..index_creation.dataset_model import DatasetModel
-from ..seeker_service_modules.search_module import DataSeeker
 import pandas as pd
+import sys
+import os
 
-# Example usage
+from seeker.src.index_creation import DatasetModel
+from seeker.src.query_processor import QueryProcessorClass
+from seeker.src.metadata_dataset_separation import DataLoader
+from seeker.src.interpreter import SEEKER
+
 if __name__ == "__main__":
-    # Example dictionaries for dataset models
+
     datasets = {
         "dataset1": DatasetModel(
             "dataset1", 
@@ -31,19 +35,12 @@ if __name__ == "__main__":
             {"title": "Irrelevant Dataset", "description": "This dataset is not relevant."}
         )
     }
-
-    data_seeker = DataSeeker("Example dataset search")
-    query = "relevant information"
-
-    # Search in data
-    print("Searching in data:")
-    result_data = data_seeker.semantic_search(datasets, query, search_in_metadata=False)
-
-    # Search in metadata
-    print("\nSearching in metadata:")
-    result_metadata = data_seeker.semantic_search(datasets, query, search_in_metadata=True)
-
+    data_loader = DataLoader()
+    dataset_models = data_loader.upload_multiple("dataset_examples", include_metadata=True)
+    input_string = "semantic:information,semantic:relevant,cause_and_consequences:climate change"
+    search_in_metadata = False
+    interpreter = SEEKER(input_string, datasets, search_in_metadata)
+    interpreter.process()
 
 #Run the script using the following command:
-#python -m seeker.src.scripts.run_semantic_search
-
+#python -m seeker.src.scripts.run_interpreter

@@ -1,7 +1,7 @@
 
 from seeker.src.seeker_service_modules import DataSeeker
 class QueryProcessorClass:
-    def __init__(self,dataset_models, query, search_in_metadata=False):
+    def __init__(self,dataset_models, query, search_in_metadata):
         self.service_modules = {
             "semantic": self.semantic_search,
             "vector": self.vector_search,
@@ -26,7 +26,7 @@ class QueryProcessorClass:
     def semantic_search(self, *args):
         search_query = args[0] if args else self.search_query
         seeker = DataSeeker(search_query)
-        seeker.semantic_search(self.dataset_models, search_query)
+        seeker.semantic_search(self.dataset_models, search_query, self.search_in_metadata)
 
     def vector_search(self, *args):
         search_query = args[0] if args else self.search_query

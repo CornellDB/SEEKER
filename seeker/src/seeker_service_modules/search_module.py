@@ -9,7 +9,7 @@ class DataSeeker:
         self.search_query = search_query
         self.text_processor = TextProcessor()
 
-    def semantic_search(self, dataset_models, query, search_in_metadata=False):
+    def semantic_search(self, dataset_models, query, search_in_metadata):
         query_words = self.text_processor.preprocess_text(query).split()
         dataset_scores = {}
 
@@ -40,25 +40,28 @@ class DataSeeker:
             }
             results.append(result)
         
-        # Visualize the results
-        visualizer = SearchResultsVisualizer(results)
-        visualizer.display()
+        #Only Visualize the results if the search query is not empty and score is greater than 0
+        if query and score > 0:
+            visualizer = SearchResultsVisualizer(results)
+            visualizer.display()
+        else:
+            print(f"No results found for query: '{query}'")
         
         return results
 
     def vector_search(self, dataset_models, query):
         # Placeholder for vector search implementation
         # Perform the search using dataset_models and query
-        return f"Performing vector search for: '{query}' in content: {self.search_query}"
+        return f"Performing cause and consequences search for: '{query}' in dataset of size: {len(dataset_models)}"
 
     def cause_and_consequences_search(self, dataset_models, query):
         # Placeholder for cause and consequences search implementation
         # Perform the search using dataset_models and query
-        return f"Performing cause and consequences search for: '{query}' in content: {self.search_query}"
+        return f"Performing cause and consequences search for: '{query}' in dataset of size: {len(dataset_models)}"
 
     def query_by_example_search(self, dataset_models, query):
         # Placeholder for query by example search implementation
         # Perform the search using dataset_models and query
-        return f"Performing query by example search for: '{query}' in content: {self.search_query}"
+        return f"Performing query by example search for: '{query}' in dataset of size: {len(dataset_models)}"
 
 

@@ -1,6 +1,7 @@
 pandas
 bson
 ipykernel
+nltk
 
 #Dev
 #twine

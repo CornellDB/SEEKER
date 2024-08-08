@@ -14,5 +14,12 @@ class TextProcessor:
         all_text = self.preprocess_text(all_text)
         # Convert the text to a pandas Series
         words = pd.Series(all_text.split())
+        #Delete nan values and empty strings
+        words = words[words != 'nan']
+        words = words[words != '']
+        # Delete words with length less than 3
+        words = words[words.str.len() > 2]
+        # Delete words with numbers
+        words = words[~words.str.contains(r'\d')]
         # Get word counts
         return words.value_counts()
