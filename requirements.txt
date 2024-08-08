@@ -1,11 +1,9 @@
 pandas
 bson
 ipykernel
-nltk
-
 #Dev
-#twine
-#pytest
-#wheel
-#build
-#setuptools
+# twine
+# pytest
+# wheel
+# build
+# setuptools
