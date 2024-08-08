@@ -16,7 +16,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="seeker-cornell",  # Required
-    version="1.0.0",  # Required
+    version="1.0.1",  # Required
     description="Search Engine for Efficient Knowledge Extraction and Retrieval",  # Optional
     long_description=long_description,  # Optional
     long_description_content_type="text/markdown",  # Optional (see note above)

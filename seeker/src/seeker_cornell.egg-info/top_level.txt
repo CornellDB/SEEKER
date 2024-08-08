@@ -1,0 +1,11 @@
+data_visualization
+databases
+dataset_relevance_algorithm
+index_creation
+integration
+interpreter
+metadata_dataset_separation
+quality_evaluator
+query_processor
+seeker_service_modules
+transformation_standarisation

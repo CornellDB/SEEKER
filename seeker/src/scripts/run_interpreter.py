@@ -37,9 +37,9 @@ if __name__ == "__main__":
     }
     data_loader = DataLoader()
     dataset_models = data_loader.upload_multiple("dataset_examples", include_metadata=True)
-    input_string = "semantic:information,semantic:relevant,cause_and_consequences:climate change"
+    input_string = "semantic:housing,semantic:palm,cause_and_consequences:climate change"
     search_in_metadata = False
-    interpreter = SEEKER(input_string, datasets, search_in_metadata)
+    interpreter = SEEKER(input_string, dataset_models, search_in_metadata)
     interpreter.process()
 
 #Run the script using the following command:

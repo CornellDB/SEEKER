@@ -1,0 +1,6 @@
+bson>=0.5.10
+pandas>=1.0.0
+
+[dev]
+pytest>=7.0
+twine>=4.0.2

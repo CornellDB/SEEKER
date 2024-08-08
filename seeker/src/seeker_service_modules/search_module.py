@@ -41,12 +41,15 @@ class DataSeeker:
             results.append(result)
         
         #Only Visualize the results if the search query is not empty and score is greater than 0
-        if query and score > 0:
-            visualizer = SearchResultsVisualizer(results)
-            visualizer.display()
-        else:
-            print(f"No results found for query: '{query}'")
+        flag_search_query = False
+        for result in results:
+            if result["score"] > 0 and query != '':
+                visualizer = SearchResultsVisualizer(results, query)
+                visualizer.display()
+                flag_search_query = True
         
+        if not flag_search_query:
+            print(f"No results found for search query: '{query}'")
         return results
 
     def vector_search(self, dataset_models, query):
