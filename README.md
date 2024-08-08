@@ -23,9 +23,9 @@ To make changes inside the package and to upload it again so it can be properly 
 
 The file that is building the wheel and other necessary files for the upload of the package is `setup.py`, it contains all the information about the library and the initial configuration.
 
-You can also run the files inside seeker/src/scripts/ the command to run them are commented and must be run in the terminal.
+You can also run the files inside **seeker/src/scripts/** the command to run them are commented and must be run in the terminal.
 
-## API Local Development Environment Setup
+## Running functionalities (Notebook)
 
 To make changes and run locally some of the functionalities it's necessary to complete the following steps:
 
