@@ -15,14 +15,14 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name="seeker-cornell-rebu",  # Required
-    version="0.0.0",  # Required
+    name="seeker-cornell",  # Required
+    version="1.0.0",  # Required
     description="Search Engine for Efficient Knowledge Extraction and Retrieval",  # Optional
     long_description=long_description,  # Optional
     long_description_content_type="text/markdown",  # Optional (see note above)
-    url="https://github.com/pypa/sampleproject",  # Optional
-    author="Santiago Martínez",  # Optional
-    author_email="agomn99@gmail.com",  # Optional
+    url="https://github.com/CornellDB/SEEKER/",  # Optional
+    author="Santiago Martínez Novoa",  # Optional
+    author_email="sm2936@cornell.edu",  # Optional
     classifiers=[  # Optional
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
@@ -32,8 +32,8 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
     ],
     keywords="search, knowledge extraction, retrieval",  # Updated keywords
-    package_dir={"": "seeker"},  # Optional
-    packages=find_packages(where="src"),  # Required
+    package_dir={"": "seeker/src"},  # Optional
+    packages=find_packages(where="seeker/src"),  # Required
     python_requires=">=3.7, <4",
     install_requires=[
         "bson>=0.5.10",
