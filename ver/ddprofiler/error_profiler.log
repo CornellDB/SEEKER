@@ -1,0 +1,716 @@
+#########
+ddprofiler.sources.implementations.CSVSource@76284cd5 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@7a91c843
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@5197404f $FAILED$ cause-> [Ljava.lang.StackTraceElement;@4d79b8e8
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2901208 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2ae31c1c
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@34713b3c $FAILED$ cause-> [Ljava.lang.StackTraceElement;@255c024d
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@4ecfbe9d $FAILED$ cause-> [Ljava.lang.StackTraceElement;@a69c72e
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@588c1c93 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@e9e4222
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@16c6c118 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@603216bd
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7058065e $FAILED$ cause-> [Ljava.lang.StackTraceElement;@1c2307a
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@51915b5 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@798dff77
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@6bd2f7fd $FAILED$ cause-> [Ljava.lang.StackTraceElement;@77d51f43
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@13e9912f $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2faae365
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@65f41394 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@12d7067d
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@74429f44 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@533b347c
+ddprofiler.sources.implementations.CSVSource.getAttributes(CSVSource.java:140)
+ddprofiler.preanalysis.PreAnalyzer.assignSourceTask(PreAnalyzer.java:364)
+ddprofiler.core.Worker.run(Worker.java:101)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@3e3756d0 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@20ee5f87
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@308f8c90 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@71241cb0
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@604fe5a7 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6ee80ee0
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@4c175a5c $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6b3668c4
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7ef56d28 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@67694de3
+ddprofiler.sources.implementations.CSVSource.getAttributes(CSVSource.java:140)
+ddprofiler.preanalysis.PreAnalyzer.assignSourceTask(PreAnalyzer.java:364)
+ddprofiler.core.Worker.run(Worker.java:101)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@e63e458 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@48642d87
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@85ff5f7 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@5fb34d7a
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@78330a36 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@30452c45
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@4c97b230 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@7bd4cd22
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@59d21c5f $FAILED$ cause-> [Ljava.lang.StackTraceElement;@1a3c8358
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@1e3b4711 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@692f74f0
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@741f5c62 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@201e7089
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@66d58590 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@4cdd8ed9
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@282ba5b3 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@5be6c37c
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@1562c734 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@c48289b
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@6931d825 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2a39a114
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@77198865 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@57a2bf9c
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2c905820 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@42f7f5e7
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@42820ea7 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@653ce862
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@36dc8d23 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@60e651cb
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7dae0018 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@351c3d40
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@493c9175 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@53abb1df
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@249f060 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2fdd8e
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@5bbf5abe $FAILED$ cause-> [Ljava.lang.StackTraceElement;@71a54868
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@79ef4ef7 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@3a5052b7
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@597e1dc $FAILED$ cause-> [Ljava.lang.StackTraceElement;@319a6bf6
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7642ee4a $FAILED$ cause-> [Ljava.lang.StackTraceElement;@407d9ab9
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@1f77796a $FAILED$ cause-> [Ljava.lang.StackTraceElement;@3921fc1
+ddprofiler.sources.implementations.CSVSource.getAttributes(CSVSource.java:140)
+ddprofiler.preanalysis.PreAnalyzer.assignSourceTask(PreAnalyzer.java:364)
+ddprofiler.core.Worker.run(Worker.java:101)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@66c2de97 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6db10b3
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@e7ddce9 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@3ddd93f
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@490cd8de $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2475e4e1
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2f88baed $FAILED$ cause-> [Ljava.lang.StackTraceElement;@4e47b3b1
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@5c2fb0f1 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2a9843be
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7505175c $FAILED$ cause-> [Ljava.lang.StackTraceElement;@3d846695
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@4553bb5a $FAILED$ cause-> [Ljava.lang.StackTraceElement;@1df9cd5f
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@21e522cd $FAILED$ cause-> [Ljava.lang.StackTraceElement;@52f2dd4e
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@165324db $FAILED$ cause-> [Ljava.lang.StackTraceElement;@1a92d6e5
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@94b94a5 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@5daec17
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7e310dcb $FAILED$ cause-> [Ljava.lang.StackTraceElement;@534f9e13
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2abe3e3d $FAILED$ cause-> [Ljava.lang.StackTraceElement;@161f0cf2
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2f657266 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@49398b85
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2d795ea4 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@f2848f3
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@3f54159e $FAILED$ cause-> [Ljava.lang.StackTraceElement;@5286c474
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@160f6616 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@58797526
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2002f38 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@4ec359b6
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@3859a759 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6fd22c88
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2c090bb9 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@7b105eb7
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@15c251e3 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@e95c7b6
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@5b251861 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@24fc695a
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7a8311b3 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6c8b53e7
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@600ce2ae $FAILED$ cause-> [Ljava.lang.StackTraceElement;@221d5baf
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@69c03cd3 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@31a879b6
+ddprofiler.sources.implementations.CSVSource.getAttributes(CSVSource.java:140)
+ddprofiler.preanalysis.PreAnalyzer.assignSourceTask(PreAnalyzer.java:364)
+ddprofiler.core.Worker.run(Worker.java:101)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@5e8833be $FAILED$ cause-> [Ljava.lang.StackTraceElement;@57879a64
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@6ac09392 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@379351
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@47775d3a $FAILED$ cause-> [Ljava.lang.StackTraceElement;@1af04126
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2453e5e5 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@39e2254e
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@6a79fdcd $FAILED$ cause-> [Ljava.lang.StackTraceElement;@35a4636a
+ddprofiler.sources.implementations.CSVSource.getAttributes(CSVSource.java:140)
+ddprofiler.preanalysis.PreAnalyzer.assignSourceTask(PreAnalyzer.java:364)
+ddprofiler.core.Worker.run(Worker.java:101)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@205b3496 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@327afdab
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@202c1e14 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@380e8b7c
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@539196d8 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@3c3d0911
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7058cb13 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@13d1e9b5
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7cd36b82 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@47bdd93f
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@6a89cbdf $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2e0769f6
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@311a9332 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@747b1248
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@43152aa $FAILED$ cause-> [Ljava.lang.StackTraceElement;@491a28e1
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@cba1206 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@4a387116
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@e2047b3 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@514813fd
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@34ad8ec4 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2ebd280c
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@1f18d7fd $FAILED$ cause-> [Ljava.lang.StackTraceElement;@1166a183
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@488a38b6 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6d93b339
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@64f20fbd $FAILED$ cause-> [Ljava.lang.StackTraceElement;@179ddbb7
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@755e782d $FAILED$ cause-> [Ljava.lang.StackTraceElement;@34917962
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@409df098 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@324b3031
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@4fe18bb0 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@2f2eef5a
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@1e0aaef0 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@4df555b6
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7b30ddf4 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@316422b7
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@8c3b3b2 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@4e74e4e3
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@1763dfba $FAILED$ cause-> [Ljava.lang.StackTraceElement;@3a8e815d
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@1d60894 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@221d3103
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@4065bc59 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@8cb4688
+ddprofiler.sources.implementations.CSVSource.getAttributes(CSVSource.java:140)
+ddprofiler.preanalysis.PreAnalyzer.assignSourceTask(PreAnalyzer.java:364)
+ddprofiler.core.Worker.run(Worker.java:101)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@115b6741 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@850d42d
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@5a66ec52 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@578423c0
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@7b1190fd $FAILED$ cause-> [Ljava.lang.StackTraceElement;@dfd267c
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@4af4661c $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6b4bc06a
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2a5b148 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@4003bab1
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@1a45f724 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@73d08c6b
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@38114ae0 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@11ce0c16
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@2076861a $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6c855373
+ddprofiler.core.Worker.readFirstRecords(Worker.java:180)
+ddprofiler.core.Worker.run(Worker.java:114)
+java.base/java.lang.Thread.run(Thread.java:842)
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@60b2e366 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@5e7ee1d6
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@48135485 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@3192dd60
+
+
+#########
+ddprofiler.sources.implementations.CSVSource@55dfc6e1 $FAILED$ cause-> [Ljava.lang.StackTraceElement;@6671284b
+
+
