@@ -22,18 +22,18 @@ class DateTransform(Transform):
 
     def default_date_transform(self, column: ExampleColumn):
         month_map = {
-            1: ["January", "Jan"], 
-            2: ["February", "Feb"],
-            3: ["March", "Mar"],
-            4: ["April", "Apr"],
-            5: ["May"],
-            6: ["June", "Jun"],
-            7: ["July", "Jul"],
-            8: ["August", "Aug"],
-            9: ["September", "Sep"],
-            10: ["October", "Oct"],
-            11: ["November", "Nov"],
-            12: ["December", "Dec"]
+            "1": ["January", "Jan"], 
+            "2": ["February", "Feb"],
+            "3": ["March", "Mar"],
+            "4": ["April", "Apr"],
+            "5": ["May"],
+            "6": ["June", "Jun"],
+            "7": ["July", "Jul"],
+            "8": ["August", "Aug"],
+            "9": ["September", "Sep"],
+            "10": ["October", "Oct"],
+            "11": ["November", "Nov"],
+            "12": ["December", "Dec"]
         }
 
         
