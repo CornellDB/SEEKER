@@ -7,6 +7,7 @@ from collections import defaultdict
 from itertools import product
 from copy import deepcopy
 from tqdm import tqdm
+from gensim.models import KeyedVectors
 
 class ExampleColumn:
     def __init__(self, attr: str, examples: List[str]) -> None:
@@ -18,6 +19,23 @@ class QueryByExample:
         self.column_selection = ColumnSelection(aurum_api)
         self.join_path_search = JoinPathSearch(aurum_api)
         self.join_graph_search = JoinGraphSearch(self.join_path_search)
+        self.embeddings =  KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+
+    def find_similar_columns(self, columns: List[ExampleColumn], top_k=10):        
+        def expand_query(term, top_k=top_k):
+            if term in self.embeddings:
+                return list(zip(*self.embeddings.most_similar(term, topn=top_k)))[0]
+        
+        column_names = [col.attr for col in columns]
+        expanded_query = []
+        for name in column_names:
+            expanded_query += expand_query(name, top_k=top_k)
+
+        generated_columns = []
+        for col in expanded_query:
+            generated_columns.append(ExampleColumn(attr=col, examples=[]))
+
+        return generated_columns
 
     
     def find_candidate_columns(self, columns: List[ExampleColumn], cluster_prune=False):
