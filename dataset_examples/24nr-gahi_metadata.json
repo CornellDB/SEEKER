@@ -1,0 +1,21 @@
+{
+  "dataset_name": "24nr-gahi",
+  "description": "Dataset containing information from 24nr-gahi.csv",
+  "columns": [
+    "category",
+    "subcategory",
+    "work_type",
+    "fy15",
+    "fy16",
+    "fy17",
+    "fy18",
+    "fy19",
+    "total"
+  ],
+  "source": "NYC Open Data",
+  "date_created": "2025-03-11",
+  "tags": [
+    "nyc",
+    "data"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "dataset_name": "22rr-ujq3",
+  "description": "Dataset containing information from 22rr-ujq3.csv",
+  "columns": [
+    "DBN",
+    "LOCATION NAME",
+    "LOCATION CATEGORY",
+    "ADMINISTRATIVE DISTRICT",
+    "ELL REMOVALS",
+    "ELL PRINCIPAL",
+    "ELL SUPERINTENDENT",
+    "ELL EXPULSIONS",
+    "NON-ELL REMOVALS",
+    "NON-ELL PRINCIPAL",
+    "NON-ELL SUPERINTENDENT",
+    "NON-ELL EXPULSIONS",
+    "SY1617 TOTAL REMOVALS/SUSPENSIONS"
+  ],
+  "source": "NYC Open Data",
+  "date_created": "2025-03-11",
+  "tags": [
+    "nyc",
+    "data"
+  ]
+}

@@ -1,0 +1,14 @@
+pandas
+bson
+ipykernel
+elasticsearch>=7.0.0,<9.0.0
+scikit-learn>=1.0.0
+nltk>=3.6.0
+matplotlib>=3.5.0
+numpy>=1.20.0
+#Dev
+# twine
+# pytest
+# wheel
+# build
+# setuptools

@@ -1,0 +1,15 @@
+{
+  "dataset_name": "22gm-5ceg",
+  "description": "Dataset containing information from 22gm-5ceg.csv",
+  "columns": [
+    "column1",
+    "column2",
+    "column3"
+  ],
+  "source": "NYC Open Data",
+  "date_created": "2025-03-11",
+  "tags": [
+    "nyc",
+    "data"
+  ]
+}

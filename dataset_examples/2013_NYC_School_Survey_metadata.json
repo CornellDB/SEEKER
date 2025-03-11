@@ -1,0 +1,22 @@
+{
+  "dataset_name": "2013_NYC_School_Survey",
+  "description": "Dataset containing information from 2013_NYC_School_Survey.csv",
+  "columns": [
+    "DBN",
+    "School Name",
+    "School Type",
+    "Total Parent Response Rate (%)",
+    "Total Teacher Response Rate (%)",
+    "Total Student Response Rate (%)",
+    "Total Academic Expectations Score",
+    "Total Communication Score",
+    "Total Engagement Score",
+    "Total Safety and Respect Score"
+  ],
+  "source": "NYC Open Data",
+  "date_created": "2025-03-11",
+  "tags": [
+    "nyc",
+    "data"
+  ]
+}

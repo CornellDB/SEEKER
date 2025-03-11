@@ -1,0 +1,24 @@
+{
+  "dataset_name": "259a-b6s7",
+  "description": "Dataset containing information from 259a-b6s7.csv",
+  "columns": [
+    "objectid",
+    "radefect",
+    "radefectlocation",
+    "failure",
+    "impacttarget",
+    "consequence",
+    "riskrating",
+    "inspectionglobalid",
+    "globalid",
+    "createddate",
+    "failureimpact",
+    "workorderglobalid"
+  ],
+  "source": "NYC Open Data",
+  "date_created": "2025-03-11",
+  "tags": [
+    "nyc",
+    "data"
+  ]
+}

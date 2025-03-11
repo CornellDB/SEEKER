@@ -1,0 +1,21 @@
+{
+  "dataset_name": "2232-dj5q",
+  "description": "Dataset containing information from 2232-dj5q.csv",
+  "columns": [
+    "category",
+    "data_period",
+    "total_children",
+    "single_men",
+    "single_women",
+    "total_single_adults",
+    "families_with_children",
+    "total_families",
+    "total_adults_in_families"
+  ],
+  "source": "NYC Open Data",
+  "date_created": "2025-03-11",
+  "tags": [
+    "nyc",
+    "data"
+  ]
+}
