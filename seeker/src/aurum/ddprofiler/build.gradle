@@ -1,0 +1,89 @@
+apply plugin: 'java'
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'application'
+mainClassName = "core.Main"
+applicationDefaultJvmArgs = []
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs "drivers"
+    }
+}
+
+dependencies {
+    implementation 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'org.apache.logging.log4j:log4j-api:2.9.1'
+    implementation 'org.apache.logging.log4j:log4j-core:2.9.1'
+    implementation 'org.apache.logging.log4j:log4j-to-slf4j:2.7'
+    implementation 'net.sf.jopt-simple:jopt-simple:4.8'
+    // elastic 6
+    implementation 'org.elasticsearch.client:transport:6.0.0'
+    // jetty + jersey
+    implementation 'org.eclipse.jetty:jetty-server:9.2.9.v20150224'
+    implementation 'org.eclipse.jetty:jetty-servlet:9.2.9.v20150224'
+    implementation 'javax.ws.rs:javax.ws.rs-api:2.0-m03'
+    implementation 'org.glassfish.jersey.core:jersey-server:2.22.2'
+    implementation 'org.glassfish.jersey.core:jersey-common:2.22.2'
+    implementation 'org.glassfish.jersey.containers:jersey-container-jetty-servlet:2.22.2'
+    // jackson
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.7.4'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.7.4'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.7.4'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.0'
+    // stream summarizer
+    implementation 'com.clearspring.analytics:stream:2.9.2'
+    // opennlp
+    implementation 'org.apache.opennlp:opennlp-tools:1.6.0'
+    // opencsv
+    implementation 'net.sf.opencsv:opencsv:2.3'
+    //count-min sketch
+    implementation 'com.clearspring.analytics:stream:2.7.0'
+    // mysql driver
+    implementation 'mysql:mysql-connector-java:5.1.6'
+    // postgresql driver
+    implementation 'postgresql:postgresql:9.4.1208.jre6'
+    // oracle 10g driver
+    implementation 'com.oracle:ojdbc14:10.2.0.5'
+    // sqlserver driver 
+    implementation 'com.microsoft.sqlserver:mssql-jdbc:6.2.2.jre8'
+    // hive driver
+    implementation ('org.apache.hive:hive-jdbc:2.1.0'){
+        exclude group: 'io.netty', module:'netty-all'
+    }
+    implementation 'org.apache.hive:hive-jdbc:2.1.0'
+    // metrics
+    implementation 'io.dropwizard.metrics:metrics-core:3.1.0'
+    // connection pool
+    implementation 'com.zaxxer:HikariCP:2.6.0'
+
+    testImplementation 'junit:junit:4.11'
+}
+
+task fatJar(type: Jar) {
+    zip64 true
+    description "Creates self-contained fat jar"
+    zip64 true
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+    {
+        exclude 'META-INF/*.RSA'
+        exclude 'META-INF/*.SF'
+        exclude 'META-INF/*.DSA'
+    }
+    with jar
+    manifest {
+        attributes 'Main-Class': 'core.Main'
+    }
+}
+
+// task wrapper(type: Wrapper) {
+//     gradleVersion = '2.13'
+// }
