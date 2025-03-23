@@ -1,7 +1,7 @@
 from gensim.models import Word2Vec
 
 class EmbeddingTrainer:
-    def __init__(self, sentences, vector_size=100, window=5, min_count=1, workers=4):
+    def __init__(self, sentences=[], vector_size=100, window=5, min_count=1, workers=4):
         self.sentences = sentences
         self.vector_size = vector_size
         self.window = window
@@ -27,3 +27,8 @@ class EmbeddingTrainer:
     def load_model(self, file_path):
         self.model = Word2Vec.load(file_path)
         return self.model
+    
+    def get_similar_words(self, word,  topn=10):
+        if self.model is not None:
+            return self.model.wv.most_similar(word, topn=topn)
+        return []
