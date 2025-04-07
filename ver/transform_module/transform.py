@@ -40,11 +40,13 @@ class DateTransform(Transform):
             "12": ["December", "Dec"]
         }
 
+        transformed_columns = []
+        for month in month_map:
+            if month in column.attr.split():
+                for month_name in month_map[month]:
+                    transformed_columns.append(ExampleColumn(attr=month_name, examples=column.examples))
         
-        if column.attr not in month_map:
-            return []
-        
-        return [ExampleColumn(attr=mm, examples=column.examples) for mm in month_map[column.attr]]
+        return transformed_columns
                 
 
 class DateFormatTransform(Transform):
@@ -64,12 +66,13 @@ class DateFormatTransform(Transform):
 
         transformed_columns = []
         for date_format in date_formats:
-            try:
-                date_obj = datetime.strptime(column.attr, date_format)
-                for fmt in date_formats:
-                    transformed_columns.append(ExampleColumn(attr=date_obj.strftime(fmt), examples=column.examples))
-            except ValueError:
-                continue
+            for d in column.attr.split():
+                try:
+                    date_obj = datetime.strptime(d, date_format)
+                    for fmt in date_formats:
+                        transformed_columns.append(ExampleColumn(attr=date_obj.strftime(fmt), examples=column.examples))
+                except ValueError:
+                    continue
 
         return transformed_columns
     
@@ -81,11 +84,16 @@ class NumberToWordTransform(Transform):
 
     def default_number_to_word_transform(self, column: ExampleColumn):
         p = inflect.engine()
-        try:
-            num = int(column.attr)
-            return [ExampleColumn(attr=p.number_to_words(num), examples=column.examples)]
-        except ValueError:
-            return []
+
+        transformed_columns = []
+        for d in column.attr.split():
+            try:
+                num = int(d)
+                transformed_columns.append(ExampleColumn(attr=p.number_to_words(num), examples=column.examples))
+            except ValueError:
+                continue
+
+        return transformed_columns
 
 class WordToNumberTransform(Transform):
     def __init__(self, example_columns: List[ExampleColumn], transform_function=None):
@@ -95,12 +103,16 @@ class WordToNumberTransform(Transform):
 
     def default_word_to_number_transform(self, column: ExampleColumn):
         p = inflect.engine()
-        try:
-            num = p.words_to_number(column.attr)
-            return [ExampleColumn(attr=str(num), examples=column.examples)]
-        except ValueError:
-            return []
         
+        transformed_columns = []
+        for d in column.attr.split():
+            try:
+                num = p.word_to_number(d)
+                transformed_columns.append(ExampleColumn(attr=str(num), examples=column.examples))
+            except ValueError:
+                continue
+
+        return transformed_columns
 class StemmingTransform(Transform):
     def __init__(self, example_columns: List[ExampleColumn], transform_function=None):
         if transform_function is None:
@@ -109,5 +121,10 @@ class StemmingTransform(Transform):
     
     def default_stemming_transform(self, column: ExampleColumn):
         ps = PorterStemmer()
-        return [ExampleColumn(attr=ps.stem(column.attr), examples=column.examples)]
+        transformed_columns = []
+        for d in column.attr.split():
+            stemmed = ps.stem(d)
+            transformed_columns.append(ExampleColumn(attr=stemmed, examples=column.examples))
+
+        return transformed_columns
     
