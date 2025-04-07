@@ -21,19 +21,20 @@ class QueryByExample:
         self.join_graph_search = JoinGraphSearch(self.join_path_search)
         self.embeddings =  KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
 
-    def find_similar_columns(self, columns: List[ExampleColumn], top_k=10):        
+    def find_similar_columns(self, column: ExampleColumn, top_k=10):        
         def expand_query(term, top_k=top_k):
             if term in self.embeddings:
                 return list(zip(*self.embeddings.most_similar(term, topn=top_k)))[0]
         
-        column_names = [col.attr for col in columns]
-        expanded_query = []
-        for name in column_names:
-            expanded_query += expand_query(name, top_k=top_k)
+        expanded_query = set()
+        for name in column.attr.split():
+            eq = expand_query(name, top_k=top_k)
+            if eq:
+                expanded_query = expanded_query.union(eq)
 
-        generated_columns = []
+        generated_columns = [column]
         for col in expanded_query:
-            generated_columns.append(ExampleColumn(attr=col, examples=[]))
+            generated_columns.append(ExampleColumn(attr=col, examples=column.examples))
 
         return generated_columns
 
