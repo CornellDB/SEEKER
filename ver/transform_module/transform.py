@@ -7,24 +7,23 @@ from nltk import ngrams
 
 
 class Transform:
-    def __init__(self, example_columns: List[ExampleColumn], transform_function, n_gram=0):
-        self.example_columns = example_columns
+    def __init__(self, transform_function, n_gram=0):
         self.transform_function = transform_function
         self.n_gram = n_gram
 
-    def apply_transform(self):
+    def apply_transform(self, example_columns: List[ExampleColumn]):
         new_queries = []
-        for column in self.example_columns:
+        for column in example_columns:
             new_queries += self.transform_function(column)
         
-        return self.example_columns + new_queries
+        return example_columns + new_queries
 
 
 class DateTransform(Transform):
-    def __init__(self, example_columns: List[ExampleColumn], transform_function=None):
+    def __init__(self, transform_function=None):
         if transform_function is None:
             transform_function = self.default_date_transform
-        super().__init__(example_columns, transform_function)
+        super().__init__(transform_function)
 
     def default_date_transform(self, column: ExampleColumn):
         month_map = {
@@ -57,10 +56,10 @@ class DateTransform(Transform):
                 
 
 class DateFormatTransform(Transform):
-    def __init__(self, example_columns: List[ExampleColumn], transform_function=None):
+    def __init__(self, transform_function=None):
         if transform_function is None:
             transform_function = self.default_date_format_transform
-        super().__init__(example_columns, transform_function)
+        super().__init__(transform_function)
 
     def default_date_format_transform(self, column: ExampleColumn):
         date_formats = [
@@ -89,10 +88,10 @@ class DateFormatTransform(Transform):
         return transformed_columns
     
 class NumberToWordTransform(Transform):
-    def __init__(self, example_columns: List[ExampleColumn], transform_function=None):
+    def __init__(self, transform_function=None):
         if transform_function is None:
             transform_function = self.default_number_to_word_transform
-        super().__init__(example_columns, transform_function)
+        super().__init__(transform_function)
 
     def default_number_to_word_transform(self, column: ExampleColumn):
         p = inflect.engine()
@@ -113,10 +112,10 @@ class NumberToWordTransform(Transform):
         return transformed_columns
 
 class WordToNumberTransform(Transform):
-    def __init__(self, example_columns: List[ExampleColumn], transform_function=None):
+    def __init__(self, transform_function=None):
         if transform_function is None:
             transform_function = self.default_word_to_number_transform
-        super().__init__(example_columns, transform_function)
+        super().__init__(transform_function)
 
     def default_word_to_number_transform(self, column: ExampleColumn):
         p = inflect.engine()
@@ -136,10 +135,10 @@ class WordToNumberTransform(Transform):
 
         return transformed_columns
 class StemmingTransform(Transform):
-    def __init__(self, example_columns: List[ExampleColumn], transform_function=None):
+    def __init__(self, transform_function=None):
         if transform_function is None:
             transform_function = self.default_stemming_transform
-        super().__init__(example_columns, transform_function)
+        super().__init__(transform_function)
     
     def default_stemming_transform(self, column: ExampleColumn):
         ps = PorterStemmer()
