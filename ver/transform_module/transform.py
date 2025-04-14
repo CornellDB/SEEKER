@@ -3,12 +3,14 @@ from qbe_module.query_by_example import ExampleColumn
 from datetime import datetime
 import inflect
 from nltk.stem import PorterStemmer
+from nltk import ngrams
 
 
 class Transform:
-    def __init__(self, example_columns: List[ExampleColumn], transform_function):
+    def __init__(self, example_columns: List[ExampleColumn], transform_function, n_gram=0):
         self.example_columns = example_columns
         self.transform_function = transform_function
+        self.n_gram = n_gram
 
     def apply_transform(self):
         new_queries = []
@@ -43,9 +45,14 @@ class DateTransform(Transform):
         transformed_columns = []
         for month in month_map:
             if month in column.attr.split():
-                for month_name in month_map[month]:
-                    transformed_columns.append(ExampleColumn(attr=month_name, examples=column.examples))
-        
+                if self.n_gram == 0:
+                    for month_name in month_map[month]:
+                        transformed_columns.append(ExampleColumn(attr=month_name, examples=column.examples))
+                else:
+                    n_grams = ngrams(month, self.n_gram)
+                    for n_gram in n_grams:
+                        transformed_columns.append(ExampleColumn(attr="".join(n_gram), examples=column.examples))
+
         return transformed_columns
                 
 
@@ -69,8 +76,13 @@ class DateFormatTransform(Transform):
             for d in column.attr.split():
                 try:
                     date_obj = datetime.strptime(d, date_format)
-                    for fmt in date_formats:
-                        transformed_columns.append(ExampleColumn(attr=date_obj.strftime(fmt), examples=column.examples))
+                    if self.n_gram == 0:
+                        for fmt in date_formats:
+                            transformed_columns.append(ExampleColumn(attr=date_obj.strftime(fmt), examples=column.examples))
+                    else:
+                        n_grams = ngrams(date_obj.strftime(date_format), self.n_gram)
+                        for n_gram in n_grams:
+                            transformed_columns.append(ExampleColumn(attr="".join(n_gram), examples=column.examples))
                 except ValueError:
                     continue
 
@@ -89,7 +101,12 @@ class NumberToWordTransform(Transform):
         for d in column.attr.split():
             try:
                 num = int(d)
-                transformed_columns.append(ExampleColumn(attr=p.number_to_words(num), examples=column.examples))
+                if self.n_gram == 0:
+                    transformed_columns.append(ExampleColumn(attr=p.number_to_words(num), examples=column.examples))
+                else:
+                    n_grams = ngrams(p.number_to_words(num), self.n_gram)
+                    for n_gram in n_grams:
+                        transformed_columns.append(ExampleColumn(attr="".join(n_gram), examples=column.examples)) 
             except ValueError:
                 continue
 
@@ -107,8 +124,13 @@ class WordToNumberTransform(Transform):
         transformed_columns = []
         for d in column.attr.split():
             try:
-                num = p.word_to_number(d)
-                transformed_columns.append(ExampleColumn(attr=str(num), examples=column.examples))
+                num = str(p.word_to_number(d))
+                if self.n_gram == 0:
+                    transformed_columns.append(ExampleColumn(attr=num, examples=column.examples))
+                else:
+                    n_grams = ngrams(num, self.n_gram)
+                    for n_gram in n_grams:
+                        transformed_columns.append(ExampleColumn(attr="".join(n_gram), examples=column.examples))
             except ValueError:
                 continue
 
@@ -124,7 +146,12 @@ class StemmingTransform(Transform):
         transformed_columns = []
         for d in column.attr.split():
             stemmed = ps.stem(d)
-            transformed_columns.append(ExampleColumn(attr=stemmed, examples=column.examples))
+            if self.n_gram == 0:
+                transformed_columns.append(ExampleColumn(attr=stemmed, examples=column.examples))
+            else:
+                n_grams = ngrams(stemmed, self.n_gram)
+                for n_gram in n_grams:
+                    transformed_columns.append(ExampleColumn(attr="".join(n_gram), examples=column.examples))
 
         return transformed_columns
     
