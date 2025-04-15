@@ -85,11 +85,29 @@ class FieldNetwork:
 
     def get_cardinality_of(self, node_id):
         c = self.__G._node[node_id]
-        # c = self.__G.node[node_id]
         card = c["cardinality"]
         if card is None:
             return 0  # no cardinality is like card 0
         return card
+    
+    def get_size_of(self, node_id):
+        """
+        Returns the size of the node
+        """
+        nid = str(node_id)
+        if nid in self.__G._node:   
+            return 1
+        return 0
+    
+    def get_non_empty_values_of(self, nid):
+        """
+        Returns the non-empty value count for a given node id
+        """
+        c = self.__G._node[nid]
+        non_empty = c['non_empty_values']
+        if not non_empty:
+            return 0
+        return non_empty
 
     def _get_underlying_repr_graph(self):
         return self.__G
@@ -129,17 +147,17 @@ class FieldNetwork:
             cardinality_ratio = None
             if float(total_values) > 0:
                 cardinality_ratio = float(unique_values) / float(total_values)
-            self.add_field(nid, cardinality_ratio)
+            self.add_field(nid, cardinality_ratio, total_values)
         print("Building schema relation...OK")
 
-    def add_field(self, nid, cardinality=None):
+    def add_field(self, nid, cardinality=None, non_empty_values=0):
         """
         Creates a graph node for this field and adds it to the graph
         :param nid: the id of the node (a hash of dbname, sourcename and fieldname
         :param cardinality: the cardinality of the values of the node, if any
         :return: the newly added field node
         """
-        self.__G.add_node(nid, cardinality=cardinality)
+        self.__G.add_node(nid, cardinality=cardinality, non_empty_values=non_empty_values)
         return nid
 
     def add_fields(self, list_of_fields):
@@ -239,10 +257,11 @@ class FieldNetwork:
         data = []
         neighbours = self.__G[nid]
         for k, v in neighbours.items():
-            if relation in v:
-                score = v[relation]["score"]
-                (db_name, source_name, field_name, data_type) = self.__id_names[k]
-                data.append(Hit(k, db_name, source_name, field_name, score))
+            for edge_idx, edge_data in v.items():
+                if edge_data.get('relation') == relation:
+                    score = edge_data['score']['score']
+                    (db_name, source_name, field_name, data_type) = self.__id_names[k]
+                    data.append(Hit(k, db_name, source_name, field_name, score))
         op = self.get_op_from_relation(relation)
         o_drs = DRS(data, Operation(op, params=[hit]))
         return o_drs

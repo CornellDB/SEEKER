@@ -48,7 +48,7 @@ class JoinKey:
         self.unique_values = unique_values
         self.total_values = total_values
         self.non_empty = non_empty
-        if col_drs.metadata == 0:
+        if not hasattr(col_drs, 'metadata') or col_drs.metadata == 0:
             self.join_card = 0
             self.js = 0
             self.jc = 0

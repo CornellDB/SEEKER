@@ -14,20 +14,51 @@ class Join_Path_API:
         self.api = API(self.network)
 
     def find_join_paths_from(self, start, max_hop, result):
+        """
+        Find join paths from a given table
+        """
         columns = self.api.drs_from_table(start)
         for col in columns:
             self.find_join_path(col, max_hop, result, [self.col_to_join_key(col)])
 
     def find_join_path(self, col, max_hop, result, cur_path):
+        """
+        Recursive function to find join paths from a given column
+        """
         if max_hop == 0:
             return
         if not self.is_column_nan(col):
             neighbors = self.network.neighbors_id(col, Relation.CONTENT_SIM)
             for nei in neighbors:
-                cur_path.append(self.col_to_join_key(nei))
-                result.append(JoinPath(cur_path[:]))
+                new_join_key = self.col_to_join_key(nei)
+                cur_path.append(new_join_key)
+                
+                potential_path = JoinPath(cur_path[:])
+                
+                path_exists = False
+                for existing_path in result:
+                    if self.paths_are_equal(existing_path, potential_path):
+                        path_exists = True
+                        break
+                
+                if not path_exists:
+                    result.append(potential_path)
+                
                 self.find_join_path(nei, max_hop - 1, result, cur_path)
                 cur_path.pop()
+
+    def paths_are_equal(self, path1, path2):
+        """
+        Check if two join paths are equivalent
+        """
+        if len(path1.join_path) != len(path2.join_path):
+            return False
+        
+        for jk1, jk2 in zip(path1.join_path, path2.join_path):
+            if jk1.tbl != jk2.tbl or jk1.col != jk2.col:
+                return False
+        
+        return True
 
     def is_column_nan(self, col):
         non_empty = self.network.get_non_empty_values_of(col.nid)
@@ -36,10 +67,9 @@ class Join_Path_API:
         return False
 
     def get_sizes_from_drs(self, col):
-        unique = self.network.get_size_of(col.nid)
-        total = int(
-            self.network.get_size_of(col.nid) / self.network.get_cardinality_of(col.nid)
-        )
+        # TODO: differentiate between total, unique, and non-empty values when creating the network
+        total = self.network.get_non_empty_values_of(col.nid)
+        unique = total * self.network.get_cardinality_of(col.nid)
         non_empty = self.network.get_non_empty_values_of(col.nid)
         return unique, total, non_empty
 
@@ -144,8 +174,8 @@ if __name__ == "__main__":
     # find join paths
     join_path_api = Join_Path_API(path)
     result = []
+    print("Finding join paths from", table)
     join_path_api.find_join_paths_from(table, max_hop, result)
-    # find_join_paths_from(table, max_hop, result)
     print("# join paths:", len(result))
     for jp in result:
         jp.print_metadata_str()
