@@ -11,21 +11,37 @@ The Transform Module is designed to apply various transformations to queries rep
 - **Stemming Transformations**: Reduces words to their root forms using stemming (e.g., "running" to "run").
 - **Custom N-Gram Transformations**: Generates n-grams from query attributes for advanced query matching.
 
-## Usage
-The module provides a base `Transform` class that can be extended to implement custom transformations. Each transformation class takes a list of `ExampleColumn` objects and applies the specified transformation logic.
+## QueryFilter
+The `QueryFilter` class is designed to filter and group queries based on their transformed results. It uses the `Transform` classes to apply transformations and groups queries that produce the same transformed results.
 
-### Example
+### Features
+- **Duplicate Removal**: Filters out duplicate queries based on their transformed results.
+- **Query Grouping**: Groups queries that transform into the same results and assigns them a unique group ID.
+- **Graph Generation**: Creates a graph-like structure using `networkx` to visualize the relationships between queries and their groups.
+
+### Example Usage
 ```python
+from transform_module.query_filter import QueryFilter
 from transform_module.transform import DateTransform
 from qbe_module.query_by_example import ExampleColumn
+import networkx as nx
+import matplotlib.pyplot as plt
 
-# Example query
-queries = [ExampleColumn(attr="1", examples=["example1"])]
+# Example queries
+queries = [
+    ExampleColumn(attr="1", examples=["example1"]),
+    ExampleColumn(attr="January", examples=["example2"]),
+    ExampleColumn(attr="Jan", examples=["example3"]),
+]
 
 # Apply DateTransform
 date_transform = DateTransform()
-transformed_queries = date_transform.apply_transform(queries)
+query_filter = QueryFilter(date_transform, queries)
 
-# Output transformed queries
-for query in transformed_queries:
-    print(query.attr)
+# Filter queries and generate graph
+query_filter.filter_queries()
+graph = query_filter.generate_graph()
+
+# Visualize the graph
+nx.draw(graph, with_labels=True, node_color="lightblue", font_weight="bold")
+plt.show()
