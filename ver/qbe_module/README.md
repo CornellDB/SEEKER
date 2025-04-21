@@ -23,3 +23,20 @@ After getting a set of candidate columns for each example column, we need to fig
 
 ## Stage 3: Materializer
 After join graphs are produced, the last step is to materialize the join graph and get the final view. Materializer component takes a join graph as input and output the view after materializing the join graph.
+
+## Using GoogleNewsVector for Querying Similar Words
+
+To enhance the functionality of the QBE module, we can use pre-trained word embeddings like `GoogleNewsVector` to query similar words for a given input. This can help in expanding user queries and improving the retrieval of relevant columns.
+
+### Steps to Use GoogleNewsVector
+1. **Download the Pre-trained Model**:
+   Download the pre-trained `GoogleNews-vectors-negative300.bin` model from GoogleNews Word2Vec.
+
+2. **Load the Model**:
+   Use the `gensim` library to load the model:
+   ```python
+   from gensim.models import KeyedVectors
+
+   # Load the GoogleNews Word2Vec model
+   model_path = "path/to/GoogleNews-vectors-negative300.bin"
+   word_vectors = KeyedVectors.load_word2vec_format(model_path, binary=True)
