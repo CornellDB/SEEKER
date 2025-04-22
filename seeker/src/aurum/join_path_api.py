@@ -9,6 +9,8 @@ from collections import defaultdict
 
 
 class Join_Path_API:
+    searched_nodes = set()
+
     def __init__(self, model_path):
         self.network = deserialize_network(model_path)
         self.api = API(self.network)
@@ -28,6 +30,9 @@ class Join_Path_API:
         if max_hop == 0:
             return
         if not self.is_column_nan(col):
+            if col.nid in self.searched_nodes:
+                return
+            self.searched_nodes.add(col.nid)
             neighbors = self.network.neighbors_id(col, Relation.CONTENT_SIM)
             for nei in neighbors:
                 new_join_key = self.col_to_join_key(nei)
@@ -69,7 +74,7 @@ class Join_Path_API:
     def get_sizes_from_drs(self, col):
         # TODO: differentiate between total, unique, and non-empty values when creating the network
         total = self.network.get_non_empty_values_of(col.nid)
-        unique = total * self.network.get_cardinality_of(col.nid)
+        unique = round(total * self.network.get_cardinality_of(col.nid))
         non_empty = self.network.get_non_empty_values_of(col.nid)
         return unique, total, non_empty
 
