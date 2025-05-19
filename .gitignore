@@ -1,1 +1,10 @@
 venv/
+ver/ver-venv/
+ver/GoogleNews-vectors-negative300.bin
+ver/output*
+ver/profile*
+ver/nyc_open_data/
+ver/phone_data/
+ver/WDC_data/
+**/__pycache__/
+.DS_Store
