@@ -1,0 +1,28 @@
+{
+  "dataset_name": "242c-ru4i",
+  "description": "Dataset containing information from 242c-ru4i.csv",
+  "columns": [
+    "address",
+    "boro",
+    "borocd",
+    "city",
+    "fid",
+    "globalid",
+    "name",
+    "state",
+    "type",
+    "zip",
+    "point",
+    ":@computed_region_efsh_h5xi",
+    ":@computed_region_f5dn_yrer",
+    ":@computed_region_yeji_bk3q",
+    ":@computed_region_92fq_4b7q",
+    ":@computed_region_sbqj_enih"
+  ],
+  "source": "NYC Open Data",
+  "date_created": "2025-03-11",
+  "tags": [
+    "nyc",
+    "data"
+  ]
+}
