@@ -1,0 +1,23 @@
+{
+  "intersecting_datasets": [],
+  "n_intersecting": 0,
+  "n_total_datasets": 100,
+  "total_trials": 10,
+  "max_trials": 10,
+  "dataset_first_hit": {},
+  "epsilon": 0.1,
+  "samples_per_trial": 99,
+  "query_range": [
+    [
+      30.0
+    ],
+    [
+      70.0
+    ]
+  ],
+  "threshold": 0.5,
+  "elapsed_time": 0.6750528812408447,
+  "avg_time_per_trial": 0.006750528812408447,
+  "parallel_query": true,
+  "timestamp": "2025-11-08 21:45:50"
+}

@@ -1,0 +1,16 @@
+name: search
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.2  
+  - numpy>=1.21.0
+  - pandas>=1.3.0
+  - scipy>=1.11.0
+  - scikit-learn>=1.3.0
+  - ucimlrepo
+  - zstandard
+  - Rtree
+  - pip
+  - pip:
+      
