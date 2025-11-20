@@ -1,0 +1,109 @@
+.card_wrapper {
+    height: 300px;
+    max-width: 5000px;
+    min-width: 260px;
+    margin: 0px;
+
+    border: none;
+    border-radius: 0px;
+    
+    display: inline-block;
+
+    overflow: scroll;
+    align-items: center;
+
+    padding: 0px;
+    font-size: 20px;
+}
+.card_wrapper:checked {
+    background: rgb(117, 51, 51);
+    border: 11px solid gray;
+}
+input[type="checkbox"]{
+    -webkit-appearance: initial;
+    appearance: initial;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: rgba(255, 255, 255, 0.57);
+    position: relative;
+    left:2%;
+    float:left;
+}
+input[type="checkbox"]:checked {
+    background: white;
+}
+.table_label {
+    /* Other styling... */
+    text-align: left;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+input[type="checkbox"]:checked:after {
+    /* Heres your symbol replacement - this is a tick in Unicode. */
+    content: "\2713";
+    color: rgb(209, 96, 39);
+    /* The following positions my tick in the center, 
+     * but you could just overlay the entire box
+     * with a full after element with a background if you want to */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    /*
+     * If you want to fully change the check appearance, use the following:
+     * content: " ";
+     * width: 100%;
+     * height: 100%;
+     * background: blue;
+     * top: 0;
+     * left: 0;
+     */
+}
+.card_wrapper:hover {
+    cursor: pointer;
+    border: none;
+}
+
+.card_header {
+    width: 100%;
+    height: 40px;
+    /* background-color: blue; */
+
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    overflow: scroll;
+
+}
+
+.card_header_row {
+    width: 100%;
+    height: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card_header_subtitle {
+    color: blue;
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.card_header_text {
+    font-size: 12px;
+}
+
+.card_title {
+    font-weight: 800;
+}

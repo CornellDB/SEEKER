@@ -1,0 +1,14 @@
+api_version: 0
+
+sources:
+  - name: "favorita_csv"
+    type: csv
+    config:
+      # 所有 CSV（train.csv、test.csv、stores.csv、oil.csv、holidays_events.csv…）
+      # 所在文件夹的绝对路径
+      path: "/home/hans/Documents/Metam/data"
+
+      # CSV 的字段分隔符（Kaggle 默认逗号）
+      separator: ","
+
+
