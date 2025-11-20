@@ -1,0 +1,19 @@
+[
+  {
+    "name": "sales_r2_baseline",
+    "task": "regression",
+    "attribute": "sales",
+    "metric": "r2",
+    "queryMethod": "identify_group_query_thompson",
+    "qualityScorers": "ClusterBalanceScorer",
+    "profilers": [
+      "CorrProfile",
+      "MutualInfoProfile",
+      "SyntacticProfile",
+      "Chi2Profile",
+      "SemanticProfile",
+      "CoverageProfile",
+      "UninformativeProfile"
+    ]
+  }
+]

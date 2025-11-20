@@ -1,0 +1,1075 @@
+2025-10-11 06:41:33,299 - metam.pipeline - INFO - Discovered 3 join paths
+2025-10-11 06:41:35,342 - metam.pipeline - INFO - Constructed 13 candidate columns
+2025-10-11 06:41:35,354 - metam.pipeline - INFO - Original metric: 0.1826
+2025-10-11 06:41:35,366 - src.backend.querying - INFO - === Outer iteration 0: metric=0.18264590047657603
+2025-10-11 06:41:35,377 - src.backend.querying - INFO - SEQ 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,388 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,409 - src.backend.querying - INFO - SEQ 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,424 - src.backend.querying - INFO - GRP 0.18304795266543195 (gain=0.000402052188855917)
+2025-10-11 06:41:35,435 - src.backend.querying - INFO - SEQ 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,449 - src.backend.querying - INFO - GRP 0.18268160694763724 (gain=3.570647106121427e-05)
+2025-10-11 06:41:35,463 - src.backend.querying - INFO - SEQ 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,477 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,490 - src.backend.querying - INFO - SEQ 0.1833982201183436 (gain=0.0007523196417675848)
+2025-10-11 06:41:35,504 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,570 - src.backend.querying - INFO - === Outer iteration 1: metric=0.1833982201183436
+2025-10-11 06:41:35,578 - src.backend.querying - INFO - SEQ 0.1833982201183436 (gain=0.0)
+2025-10-11 06:41:35,591 - src.backend.querying - INFO - GRP 0.18291738466586493 (gain=0.0002714841892889064)
+2025-10-11 06:41:35,614 - src.backend.querying - INFO - SEQ 0.1833982201183436 (gain=0.0)
+2025-10-11 06:41:35,629 - src.backend.querying - INFO - GRP 0.18852725921863667 (gain=0.005881358742060638)
+2025-10-11 06:41:35,645 - src.backend.querying - INFO - SEQ 0.1833982201183436 (gain=0.0)
+2025-10-11 06:41:35,660 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,678 - src.backend.querying - INFO - SEQ 0.1833982201183436 (gain=0.0)
+2025-10-11 06:41:35,693 - src.backend.querying - INFO - GRP 0.18295967696215598 (gain=0.00031377648557995297)
+2025-10-11 06:41:35,705 - src.backend.querying - INFO - SEQ 0.1833982201183436 (gain=0.0)
+2025-10-11 06:41:35,718 - src.backend.querying - INFO - GRP 0.1833181948951016 (gain=0.0006722944185255653)
+2025-10-11 06:41:35,719 - src.backend.querying - INFO - === Outer iteration 2: metric=0.18852725921863667
+2025-10-11 06:41:35,734 - src.backend.querying - INFO - SEQ 0.18873258850835106 (gain=0.00020532928971439546)
+2025-10-11 06:41:35,753 - src.backend.querying - INFO - GRP 0.19049585364215205 (gain=0.007849953165576018)
+2025-10-11 06:41:35,775 - src.backend.querying - INFO - SEQ 0.18852725921863667 (gain=0.0)
+2025-10-11 06:41:35,788 - src.backend.querying - INFO - GRP 0.1833982201183436 (gain=0.0007523196417675848)
+2025-10-11 06:41:35,807 - src.backend.querying - INFO - SEQ 0.18852725921863667 (gain=0.0)
+2025-10-11 06:41:35,820 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,834 - src.backend.querying - INFO - SEQ 0.18852725921863667 (gain=0.0)
+2025-10-11 06:41:35,846 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,863 - src.backend.querying - INFO - SEQ 0.18852725921863667 (gain=0.0)
+2025-10-11 06:41:35,877 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:35,877 - src.backend.querying - INFO - === Outer iteration 3: metric=0.19049585364215205
+2025-10-11 06:41:35,890 - src.backend.querying - INFO - SEQ 0.19049585364215205 (gain=0.0)
+2025-10-11 06:41:35,905 - src.backend.querying - INFO - GRP 0.18873276803854389 (gain=0.006086867561967857)
+2025-10-11 06:41:35,919 - src.backend.querying - INFO - SEQ 0.19049585364215205 (gain=0.0)
+2025-10-11 06:41:35,936 - src.backend.querying - INFO - GRP 0.18315223344271359 (gain=0.0005063329661375571)
+2025-10-11 06:41:35,956 - src.backend.querying - INFO - SEQ 0.19049585364215205 (gain=0.0)
+2025-10-11 06:41:35,972 - src.backend.querying - INFO - GRP 0.1906763001842463 (gain=0.008030399707670277)
+2025-10-11 06:41:35,985 - src.backend.querying - INFO - SEQ 0.19049585364215205 (gain=0.0)
+2025-10-11 06:41:35,999 - src.backend.querying - INFO - GRP 0.18291738466586493 (gain=0.0002714841892889064)
+2025-10-11 06:41:36,011 - src.backend.querying - INFO - SEQ 0.19049585364215205 (gain=0.0)
+2025-10-11 06:41:36,027 - src.backend.querying - INFO - GRP 0.18313027920301184 (gain=0.0004843787264358079)
+2025-10-11 06:41:36,028 - src.backend.querying - INFO - === Outer iteration 4: metric=0.1906763001842463
+2025-10-11 06:41:36,047 - src.backend.querying - INFO - SEQ 0.1906763001842463 (gain=0.0)
+2025-10-11 06:41:36,068 - src.backend.querying - INFO - GRP 0.1833982201183436 (gain=0.0007523196417675848)
+2025-10-11 06:41:36,088 - src.backend.querying - INFO - SEQ 0.1906763001842463 (gain=0.0)
+2025-10-11 06:41:36,104 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:36,130 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=2.0629940473693154e-06)
+2025-10-11 06:41:36,150 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:36,170 - src.backend.querying - INFO - SEQ 0.1906763001842463 (gain=0.0)
+2025-10-11 06:41:36,189 - src.backend.querying - INFO - GRP 0.18287601432957745 (gain=0.0002301138530014235)
+2025-10-11 06:41:36,209 - src.backend.querying - INFO - SEQ 0.1906763001842463 (gain=0.0)
+2025-10-11 06:41:36,226 - src.backend.querying - INFO - GRP 0.19049585364215205 (gain=0.007849953165576018)
+2025-10-11 06:41:36,226 - src.backend.querying - INFO - === Outer iteration 5: metric=0.19067836317829367
+2025-10-11 06:41:36,253 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,270 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:36,301 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,315 - src.backend.querying - INFO - GRP 0.18852725921863667 (gain=0.005881358742060638)
+2025-10-11 06:41:36,341 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,355 - src.backend.querying - INFO - GRP 0.1899579084441918 (gain=0.0073120079676157745)
+2025-10-11 06:41:36,374 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,387 - src.backend.querying - INFO - GRP 0.18300940876340244 (gain=0.00036350828682640834)
+2025-10-11 06:41:36,403 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,414 - src.backend.querying - INFO - GRP 0.18291738466586493 (gain=0.0002714841892889064)
+2025-10-11 06:41:36,414 - src.backend.querying - INFO - === Outer iteration 6: metric=0.19067836317829367
+2025-10-11 06:41:36,434 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,449 - src.backend.querying - INFO - GRP 0.18314734610496264 (gain=0.0005014456283866098)
+2025-10-11 06:41:36,473 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,500 - src.backend.querying - INFO - GRP 0.18905327143916562 (gain=0.006407370962589587)
+2025-10-11 06:41:36,519 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,540 - src.backend.querying - INFO - GRP 0.18368568908491656 (gain=0.0010397886083405306)
+2025-10-11 06:41:36,557 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,575 - src.backend.querying - INFO - GRP 0.1833181948951016 (gain=0.0006722944185255653)
+2025-10-11 06:41:36,600 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,618 - src.backend.querying - INFO - GRP 0.18304795266543195 (gain=0.000402052188855917)
+2025-10-11 06:41:36,618 - src.backend.querying - INFO - === Outer iteration 7: metric=0.19067836317829367
+2025-10-11 06:41:36,643 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,663 - src.backend.querying - INFO - GRP 0.18744566520611194 (gain=0.004799764729535916)
+2025-10-11 06:41:36,707 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,738 - src.backend.querying - INFO - GRP 0.18304795266543217 (gain=0.000402052188856139)
+2025-10-11 06:41:36,767 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,782 - src.backend.querying - INFO - GRP 0.18291738466586493 (gain=0.0002714841892889064)
+2025-10-11 06:41:36,801 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,815 - src.backend.querying - INFO - GRP 0.18331819489510148 (gain=0.0006722944185254542)
+2025-10-11 06:41:36,834 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,847 - src.backend.querying - INFO - GRP 0.18304795266543217 (gain=0.000402052188856139)
+2025-10-11 06:41:36,848 - src.backend.querying - INFO - === Outer iteration 8: metric=0.19067836317829367
+2025-10-11 06:41:36,864 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,874 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:36,891 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,900 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:36,918 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,934 - src.backend.querying - INFO - GRP 0.1840510559624836 (gain=0.0014051554859075832)
+2025-10-11 06:41:36,955 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:36,972 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:36,991 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,005 - src.backend.querying - INFO - GRP 0.1887325885083515 (gain=0.006086688031775478)
+2025-10-11 06:41:37,005 - src.backend.querying - INFO - === Outer iteration 9: metric=0.19067836317829367
+2025-10-11 06:41:37,022 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,035 - src.backend.querying - INFO - GRP 0.19049216043666162 (gain=0.007846259960085589)
+2025-10-11 06:41:37,051 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,065 - src.backend.querying - INFO - GRP 0.18294367047128457 (gain=0.00029776999470854104)
+2025-10-11 06:41:37,083 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,097 - src.backend.querying - INFO - GRP 0.18852725921863667 (gain=0.005881358742060638)
+2025-10-11 06:41:37,117 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,134 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:37,158 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,170 - src.backend.querying - INFO - GRP 0.18275207975419394 (gain=0.00010617927761791268)
+2025-10-11 06:41:37,170 - src.backend.querying - INFO - === Outer iteration 10: metric=0.19067836317829367
+2025-10-11 06:41:37,203 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,220 - src.backend.querying - INFO - GRP 0.18365332111442512 (gain=0.001007420637849088)
+2025-10-11 06:41:37,244 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,263 - src.backend.querying - INFO - GRP 0.19046638660452975 (gain=0.007820486127953719)
+2025-10-11 06:41:37,296 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,315 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:37,334 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,356 - src.backend.querying - INFO - GRP 0.19068087379914234 (gain=0.008034973322566308)
+2025-10-11 06:41:37,379 - src.backend.querying - INFO - SEQ 0.19067836317829367 (gain=0.0)
+2025-10-11 06:41:37,401 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:37,401 - src.backend.querying - INFO - === Outer iteration 11: metric=0.19068087379914234
+2025-10-11 06:41:37,422 - src.backend.querying - INFO - SEQ 0.19068087379914234 (gain=0.0)
+2025-10-11 06:41:37,437 - src.backend.querying - INFO - GRP 0.1833181948951016 (gain=0.0006722944185255653)
+2025-10-11 06:41:37,462 - src.backend.querying - INFO - SEQ 0.19069297577856048 (gain=1.2101979418144282e-05)
+2025-10-11 06:41:37,484 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:37,502 - src.backend.querying - INFO - SEQ 0.19068087379914245 (gain=1.1102230246251565e-16)
+2025-10-11 06:41:37,521 - src.backend.querying - INFO - GRP 0.18831141000436702 (gain=0.005665509527790991)
+2025-10-11 06:41:37,541 - src.backend.querying - INFO - SEQ 0.19068087379914234 (gain=0.0)
+2025-10-11 06:41:37,563 - src.backend.querying - INFO - GRP 0.18268160694763713 (gain=3.570647106110325e-05)
+2025-10-11 06:41:37,581 - src.backend.querying - INFO - SEQ 0.19068087379914245 (gain=1.1102230246251565e-16)
+2025-10-11 06:41:37,608 - src.backend.querying - INFO - GRP 0.18295967696215576 (gain=0.0003137764855797309)
+2025-10-11 06:41:37,609 - src.backend.querying - INFO - === Outer iteration 12: metric=0.19069297577856048
+2025-10-11 06:41:37,646 - src.backend.querying - INFO - SEQ 0.19069297577856048 (gain=0.0)
+2025-10-11 06:41:37,672 - src.backend.querying - INFO - GRP 0.1828145786243459 (gain=0.0001686781477698851)
+2025-10-11 06:41:37,693 - src.backend.querying - INFO - SEQ 0.19069297577856048 (gain=0.0)
+2025-10-11 06:41:37,706 - src.backend.querying - INFO - GRP 0.19049585364215216 (gain=0.007849953165576129)
+2025-10-11 06:41:37,724 - src.backend.querying - INFO - SEQ 0.19069297577856048 (gain=0.0)
+2025-10-11 06:41:37,738 - src.backend.querying - INFO - GRP 0.18268160694763724 (gain=3.570647106121427e-05)
+2025-10-11 06:41:37,760 - src.backend.querying - INFO - SEQ 0.19069297577856048 (gain=0.0)
+2025-10-11 06:41:37,783 - src.backend.querying - INFO - GRP 0.19255542979669338 (gain=0.00990952932011735)
+2025-10-11 06:41:37,807 - src.backend.querying - INFO - SEQ 0.19069297577856048 (gain=0.0)
+2025-10-11 06:41:37,838 - src.backend.querying - INFO - GRP 0.18265878088733267 (gain=1.2880410756643812e-05)
+2025-10-11 06:41:37,838 - src.backend.querying - INFO - === Outer iteration 13: metric=0.19255542979669338
+2025-10-11 06:41:37,868 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:37,888 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:37,913 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:37,933 - src.backend.querying - INFO - GRP 0.1830184156407959 (gain=0.0003725151642198776)
+2025-10-11 06:41:37,948 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:37,962 - src.backend.querying - INFO - GRP 0.18368358062177503 (gain=0.0010376801451990048)
+2025-10-11 06:41:37,984 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,003 - src.backend.querying - INFO - GRP 0.1832978435468665 (gain=0.0006519430702904838)
+2025-10-11 06:41:38,021 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,037 - src.backend.querying - INFO - GRP 0.18295967696215576 (gain=0.0003137764855797309)
+2025-10-11 06:41:38,037 - src.backend.querying - INFO - === Outer iteration 14: metric=0.19255542979669338
+2025-10-11 06:41:38,058 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,072 - src.backend.querying - INFO - GRP 0.18311443762514779 (gain=0.0004685371485717571)
+2025-10-11 06:41:38,093 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,106 - src.backend.querying - INFO - GRP 0.19049585364215216 (gain=0.007849953165576129)
+2025-10-11 06:41:38,121 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,134 - src.backend.querying - INFO - GRP 0.18852725921863667 (gain=0.005881358742060638)
+2025-10-11 06:41:38,149 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,165 - src.backend.querying - INFO - GRP 0.18304795266543217 (gain=0.000402052188856139)
+2025-10-11 06:41:38,191 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,206 - src.backend.querying - INFO - GRP 0.1833982201183436 (gain=0.0007523196417675848)
+2025-10-11 06:41:38,206 - src.backend.querying - INFO - === Outer iteration 15: metric=0.19255542979669338
+2025-10-11 06:41:38,227 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,243 - src.backend.querying - INFO - GRP 0.1832730258922547 (gain=0.0006271254156786643)
+2025-10-11 06:41:38,264 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,275 - src.backend.querying - INFO - GRP 0.1833982201183436 (gain=0.0007523196417675848)
+2025-10-11 06:41:38,288 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,300 - src.backend.querying - INFO - GRP 0.18268160694763724 (gain=3.570647106121427e-05)
+2025-10-11 06:41:38,315 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,330 - src.backend.querying - INFO - GRP 0.1885002915152777 (gain=0.005854391038701667)
+2025-10-11 06:41:38,344 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,359 - src.backend.querying - INFO - GRP 0.1829056653817075 (gain=0.00025976490513146544)
+2025-10-11 06:41:38,359 - src.backend.querying - INFO - === Outer iteration 16: metric=0.19255542979669338
+2025-10-11 06:41:38,375 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,388 - src.backend.querying - INFO - GRP 0.1833982201183436 (gain=0.0007523196417675848)
+2025-10-11 06:41:38,419 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,437 - src.backend.querying - INFO - GRP 0.19001005833239581 (gain=0.007364157855819786)
+2025-10-11 06:41:38,453 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,465 - src.backend.querying - INFO - GRP 0.18344935743213753 (gain=0.000803456955561499)
+2025-10-11 06:41:38,478 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,492 - src.backend.querying - INFO - GRP 0.18337281521366322 (gain=0.000726914737087192)
+2025-10-11 06:41:38,505 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,517 - src.backend.querying - INFO - GRP 0.19049585364215205 (gain=0.007849953165576018)
+2025-10-11 06:41:38,517 - src.backend.querying - INFO - === Outer iteration 17: metric=0.19255542979669338
+2025-10-11 06:41:38,531 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,544 - src.backend.querying - INFO - GRP 0.18291738466586493 (gain=0.0002714841892889064)
+2025-10-11 06:41:38,561 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,575 - src.backend.querying - INFO - GRP 0.18331819489510148 (gain=0.0006722944185254542)
+2025-10-11 06:41:38,589 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,603 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:38,619 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,635 - src.backend.querying - INFO - GRP 0.18872277353950473 (gain=0.0060768730629287004)
+2025-10-11 06:41:38,652 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,668 - src.backend.querying - INFO - GRP 0.18366511607506797 (gain=0.0010192155984919404)
+2025-10-11 06:41:38,669 - src.backend.querying - INFO - === Outer iteration 18: metric=0.19255542979669338
+2025-10-11 06:41:38,683 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,695 - src.backend.querying - INFO - GRP 0.18852725921863667 (gain=0.005881358742060638)
+2025-10-11 06:41:38,710 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,725 - src.backend.querying - INFO - GRP 0.18328516570413766 (gain=0.0006392652275616362)
+2025-10-11 06:41:38,739 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,749 - src.backend.querying - INFO - GRP 0.19049585364215205 (gain=0.007849953165576018)
+2025-10-11 06:41:38,762 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,777 - src.backend.querying - INFO - GRP 0.19047827663099592 (gain=0.007832376154419896)
+2025-10-11 06:41:38,791 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,807 - src.backend.querying - INFO - GRP 0.18284016979006568 (gain=0.00019426931348964782)
+2025-10-11 06:41:38,807 - src.backend.querying - INFO - === Outer iteration 19: metric=0.19255542979669338
+2025-10-11 06:41:38,826 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,838 - src.backend.querying - INFO - GRP 0.18295967696215598 (gain=0.00031377648557995297)
+2025-10-11 06:41:38,860 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,879 - src.backend.querying - INFO - GRP 0.18295967696215576 (gain=0.0003137764855797309)
+2025-10-11 06:41:38,903 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,924 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:38,942 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:38,964 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:38,983 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,000 - src.backend.querying - INFO - GRP 0.18268160694763724 (gain=3.570647106121427e-05)
+2025-10-11 06:41:39,000 - src.backend.querying - INFO - === Outer iteration 20: metric=0.19255542979669338
+2025-10-11 06:41:39,018 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,040 - src.backend.querying - INFO - GRP 0.18849040499415104 (gain=0.005844504517575011)
+2025-10-11 06:41:39,060 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,079 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:39,093 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,094 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,114 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,116 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,132 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,135 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,135 - src.backend.querying - INFO - === Outer iteration 21: metric=0.19255542979669338
+2025-10-11 06:41:39,154 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,156 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,177 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,179 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,198 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,200 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,216 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,217 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,235 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,237 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,237 - src.backend.querying - INFO - === Outer iteration 22: metric=0.19255542979669338
+2025-10-11 06:41:39,256 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,278 - src.backend.querying - INFO - GRP 0.18347948459386743 (gain=0.0008335841172913971)
+2025-10-11 06:41:39,299 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,301 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,319 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,321 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,337 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,338 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,359 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,361 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,361 - src.backend.querying - INFO - === Outer iteration 23: metric=0.19255542979669338
+2025-10-11 06:41:39,380 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,382 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,405 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,407 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,425 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,426 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,444 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,445 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,464 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,466 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,466 - src.backend.querying - INFO - === Outer iteration 24: metric=0.19255542979669338
+2025-10-11 06:41:39,480 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,482 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,505 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,507 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,525 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,545 - src.backend.querying - INFO - GRP 0.18264590047657603 (gain=0.0)
+2025-10-11 06:41:39,567 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,568 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,584 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,585 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,585 - src.backend.querying - INFO - === Outer iteration 25: metric=0.19255542979669338
+2025-10-11 06:41:39,605 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,607 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,637 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,639 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,659 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,660 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,680 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,682 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,700 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,701 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,702 - src.backend.querying - INFO - === Outer iteration 26: metric=0.19255542979669338
+2025-10-11 06:41:39,720 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,722 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,743 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,745 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,761 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,763 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,779 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,781 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,797 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,799 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,799 - src.backend.querying - INFO - === Outer iteration 27: metric=0.19255542979669338
+2025-10-11 06:41:39,819 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,822 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,844 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,846 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,862 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,864 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,883 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,885 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,905 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,907 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,908 - src.backend.querying - INFO - === Outer iteration 28: metric=0.19255542979669338
+2025-10-11 06:41:39,928 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,929 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,956 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,960 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:39,978 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:39,980 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,000 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,002 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,019 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,021 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,021 - src.backend.querying - INFO - === Outer iteration 29: metric=0.19255542979669338
+2025-10-11 06:41:40,042 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,043 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,065 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,067 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,085 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,087 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,105 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,107 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,125 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,127 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,127 - src.backend.querying - INFO - === Outer iteration 30: metric=0.19255542979669338
+2025-10-11 06:41:40,146 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,149 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,170 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,171 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,187 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,190 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,211 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,213 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,230 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,232 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,233 - src.backend.querying - INFO - === Outer iteration 31: metric=0.19255542979669338
+2025-10-11 06:41:40,253 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,256 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,278 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,280 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,295 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,298 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,316 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,318 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,339 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,341 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,341 - src.backend.querying - INFO - === Outer iteration 32: metric=0.19255542979669338
+2025-10-11 06:41:40,357 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,358 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,378 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,380 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,401 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,404 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,427 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,429 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,448 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,450 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,450 - src.backend.querying - INFO - === Outer iteration 33: metric=0.19255542979669338
+2025-10-11 06:41:40,475 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,478 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,500 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,505 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,525 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,526 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,542 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,544 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,560 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,562 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,562 - src.backend.querying - INFO - === Outer iteration 34: metric=0.19255542979669338
+2025-10-11 06:41:40,579 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,581 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,602 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,605 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,624 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,626 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,649 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,651 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,671 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,674 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,674 - src.backend.querying - INFO - === Outer iteration 35: metric=0.19255542979669338
+2025-10-11 06:41:40,695 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,698 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,723 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,725 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,745 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,747 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,762 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,764 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,778 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,780 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,780 - src.backend.querying - INFO - === Outer iteration 36: metric=0.19255542979669338
+2025-10-11 06:41:40,798 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,800 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,820 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,821 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,842 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,845 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,864 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,866 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,886 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,888 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,888 - src.backend.querying - INFO - === Outer iteration 37: metric=0.19255542979669338
+2025-10-11 06:41:40,904 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,906 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,926 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,927 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,944 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,946 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,963 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,965 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,981 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:40,983 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:40,983 - src.backend.querying - INFO - === Outer iteration 38: metric=0.19255542979669338
+2025-10-11 06:41:40,999 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,001 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,022 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,024 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,039 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,041 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,060 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,062 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,084 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,086 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,086 - src.backend.querying - INFO - === Outer iteration 39: metric=0.19255542979669338
+2025-10-11 06:41:41,101 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,103 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,124 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,126 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,145 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,147 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,162 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,165 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,183 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,185 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,185 - src.backend.querying - INFO - === Outer iteration 40: metric=0.19255542979669338
+2025-10-11 06:41:41,203 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,204 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,227 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,229 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,257 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,259 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,278 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,280 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,301 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,303 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,303 - src.backend.querying - INFO - === Outer iteration 41: metric=0.19255542979669338
+2025-10-11 06:41:41,323 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,325 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,350 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,353 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,371 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,373 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,390 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,392 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,411 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,413 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,413 - src.backend.querying - INFO - === Outer iteration 42: metric=0.19255542979669338
+2025-10-11 06:41:41,428 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,431 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,454 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,456 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,476 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,478 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,498 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,500 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,533 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,535 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,535 - src.backend.querying - INFO - === Outer iteration 43: metric=0.19255542979669338
+2025-10-11 06:41:41,557 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,558 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,581 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,582 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,605 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,607 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,624 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,626 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,645 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,647 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,647 - src.backend.querying - INFO - === Outer iteration 44: metric=0.19255542979669338
+2025-10-11 06:41:41,667 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,670 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,689 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,690 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,704 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,706 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,722 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,724 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,746 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,748 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,748 - src.backend.querying - INFO - === Outer iteration 45: metric=0.19255542979669338
+2025-10-11 06:41:41,765 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,768 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,795 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,798 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,821 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,824 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,847 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,849 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,877 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,879 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,879 - src.backend.querying - INFO - === Outer iteration 46: metric=0.19255542979669338
+2025-10-11 06:41:41,897 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,899 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,932 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,935 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,957 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,959 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:41,980 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:41,982 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,005 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,006 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,006 - src.backend.querying - INFO - === Outer iteration 47: metric=0.19255542979669338
+2025-10-11 06:41:42,024 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,027 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,050 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,052 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,083 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,084 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,108 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,110 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,126 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,133 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,134 - src.backend.querying - INFO - === Outer iteration 48: metric=0.19255542979669338
+2025-10-11 06:41:42,151 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,153 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,175 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,176 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,195 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,197 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,216 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,218 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,238 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,240 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,240 - src.backend.querying - INFO - === Outer iteration 49: metric=0.19255542979669338
+2025-10-11 06:41:42,257 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,259 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,282 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,283 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,302 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,304 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,319 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,321 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,343 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,345 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,345 - src.backend.querying - INFO - === Outer iteration 50: metric=0.19255542979669338
+2025-10-11 06:41:42,363 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,365 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,386 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,390 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,417 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,419 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,436 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,438 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,459 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,461 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,461 - src.backend.querying - INFO - === Outer iteration 51: metric=0.19255542979669338
+2025-10-11 06:41:42,487 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,493 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,514 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,516 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,532 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,534 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,556 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,558 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,578 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,580 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,580 - src.backend.querying - INFO - === Outer iteration 52: metric=0.19255542979669338
+2025-10-11 06:41:42,600 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,601 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,625 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,627 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,641 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,642 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,655 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,656 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,669 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,671 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,672 - src.backend.querying - INFO - === Outer iteration 53: metric=0.19255542979669338
+2025-10-11 06:41:42,697 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,699 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,717 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,719 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,741 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,743 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,765 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,767 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,796 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,798 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,798 - src.backend.querying - INFO - === Outer iteration 54: metric=0.19255542979669338
+2025-10-11 06:41:42,843 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,844 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,880 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,882 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,917 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,919 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,953 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,955 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,992 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:42,995 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:42,995 - src.backend.querying - INFO - === Outer iteration 55: metric=0.19255542979669338
+2025-10-11 06:41:43,017 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,019 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,042 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,045 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,061 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,063 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,081 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,083 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,101 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,103 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,103 - src.backend.querying - INFO - === Outer iteration 56: metric=0.19255542979669338
+2025-10-11 06:41:43,118 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,119 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,143 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,144 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,159 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,161 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,185 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,187 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,212 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,215 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,215 - src.backend.querying - INFO - === Outer iteration 57: metric=0.19255542979669338
+2025-10-11 06:41:43,240 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,242 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,269 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,272 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,294 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,296 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,324 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,326 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,343 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,345 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,345 - src.backend.querying - INFO - === Outer iteration 58: metric=0.19255542979669338
+2025-10-11 06:41:43,365 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,367 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,396 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,398 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,418 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,419 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,440 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,442 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,471 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,474 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,474 - src.backend.querying - INFO - === Outer iteration 59: metric=0.19255542979669338
+2025-10-11 06:41:43,492 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,494 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,516 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,518 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,536 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,541 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,568 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,569 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,585 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,587 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,587 - src.backend.querying - INFO - === Outer iteration 60: metric=0.19255542979669338
+2025-10-11 06:41:43,606 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,608 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,630 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,632 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,651 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,653 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,676 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,678 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,697 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,700 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,700 - src.backend.querying - INFO - === Outer iteration 61: metric=0.19255542979669338
+2025-10-11 06:41:43,720 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,722 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,742 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,744 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,777 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,779 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,838 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,840 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,889 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,893 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,893 - src.backend.querying - INFO - === Outer iteration 62: metric=0.19255542979669338
+2025-10-11 06:41:43,920 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,922 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,946 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,948 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,967 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,970 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:43,985 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:43,987 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,003 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,005 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,005 - src.backend.querying - INFO - === Outer iteration 63: metric=0.19255542979669338
+2025-10-11 06:41:44,024 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,027 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,049 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,051 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,069 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,071 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,089 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,091 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,133 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,135 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,135 - src.backend.querying - INFO - === Outer iteration 64: metric=0.19255542979669338
+2025-10-11 06:41:44,172 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,173 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,197 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,199 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,220 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,222 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,241 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,243 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,264 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,266 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,266 - src.backend.querying - INFO - === Outer iteration 65: metric=0.19255542979669338
+2025-10-11 06:41:44,285 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,287 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,311 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,313 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,333 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,335 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,355 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,356 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,375 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,377 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,377 - src.backend.querying - INFO - === Outer iteration 66: metric=0.19255542979669338
+2025-10-11 06:41:44,397 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,399 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,430 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,432 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,453 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,455 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,475 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,477 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,496 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,498 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,498 - src.backend.querying - INFO - === Outer iteration 67: metric=0.19255542979669338
+2025-10-11 06:41:44,520 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,523 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,543 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,546 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,576 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,578 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,595 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,597 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,618 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,620 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,620 - src.backend.querying - INFO - === Outer iteration 68: metric=0.19255542979669338
+2025-10-11 06:41:44,640 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,641 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,662 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,664 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,680 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,682 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,701 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,703 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,732 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,734 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,734 - src.backend.querying - INFO - === Outer iteration 69: metric=0.19255542979669338
+2025-10-11 06:41:44,754 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,756 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,773 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,776 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,793 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,795 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,815 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,816 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,837 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,839 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,839 - src.backend.querying - INFO - === Outer iteration 70: metric=0.19255542979669338
+2025-10-11 06:41:44,854 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,855 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,877 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,880 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,903 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,905 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,920 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,921 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,937 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,939 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,940 - src.backend.querying - INFO - === Outer iteration 71: metric=0.19255542979669338
+2025-10-11 06:41:44,956 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,959 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:44,980 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:44,982 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,000 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,002 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,022 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,024 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,045 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,047 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,047 - src.backend.querying - INFO - === Outer iteration 72: metric=0.19255542979669338
+2025-10-11 06:41:45,064 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,066 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,097 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,099 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,116 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,118 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,136 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,138 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,153 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,155 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,155 - src.backend.querying - INFO - === Outer iteration 73: metric=0.19255542979669338
+2025-10-11 06:41:45,171 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,172 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,188 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,190 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,203 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,205 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,227 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,229 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,248 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,249 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,249 - src.backend.querying - INFO - === Outer iteration 74: metric=0.19255542979669338
+2025-10-11 06:41:45,266 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,268 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,289 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,291 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,305 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,307 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,321 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,323 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,337 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,338 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,338 - src.backend.querying - INFO - === Outer iteration 75: metric=0.19255542979669338
+2025-10-11 06:41:45,352 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,354 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,370 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,372 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,385 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,387 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,401 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,402 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,416 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,418 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,418 - src.backend.querying - INFO - === Outer iteration 76: metric=0.19255542979669338
+2025-10-11 06:41:45,432 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,434 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,454 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,456 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,471 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,473 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,489 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,493 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,506 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,508 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,508 - src.backend.querying - INFO - === Outer iteration 77: metric=0.19255542979669338
+2025-10-11 06:41:45,526 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,528 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,546 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,548 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,562 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,564 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,577 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,579 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,593 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,594 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,594 - src.backend.querying - INFO - === Outer iteration 78: metric=0.19255542979669338
+2025-10-11 06:41:45,608 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,609 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,626 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,628 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,641 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,643 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,657 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,659 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,674 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,676 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,676 - src.backend.querying - INFO - === Outer iteration 79: metric=0.19255542979669338
+2025-10-11 06:41:45,696 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,698 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,717 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,720 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,737 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,739 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,753 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,755 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,768 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,770 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,770 - src.backend.querying - INFO - === Outer iteration 80: metric=0.19255542979669338
+2025-10-11 06:41:45,784 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,785 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,802 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,804 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,819 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,820 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,834 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,836 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,848 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,850 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,850 - src.backend.querying - INFO - === Outer iteration 81: metric=0.19255542979669338
+2025-10-11 06:41:45,863 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,865 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,884 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,886 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,900 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,902 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,915 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,917 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,932 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,934 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,934 - src.backend.querying - INFO - === Outer iteration 82: metric=0.19255542979669338
+2025-10-11 06:41:45,955 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,958 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,986 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:45,987 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:45,998 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,000 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,013 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,015 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,026 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,028 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,028 - src.backend.querying - INFO - === Outer iteration 83: metric=0.19255542979669338
+2025-10-11 06:41:46,041 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,043 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,059 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,060 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,073 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,075 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,088 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,090 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,106 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,108 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,108 - src.backend.querying - INFO - === Outer iteration 84: metric=0.19255542979669338
+2025-10-11 06:41:46,123 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,124 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,145 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,147 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,161 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,163 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,175 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,177 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,190 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,191 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,191 - src.backend.querying - INFO - === Outer iteration 85: metric=0.19255542979669338
+2025-10-11 06:41:46,205 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,206 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,225 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,227 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,243 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,245 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,263 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,265 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,281 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,283 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,283 - src.backend.querying - INFO - === Outer iteration 86: metric=0.19255542979669338
+2025-10-11 06:41:46,301 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,303 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,326 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,328 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,345 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,347 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,361 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,362 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,377 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,379 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,379 - src.backend.querying - INFO - === Outer iteration 87: metric=0.19255542979669338
+2025-10-11 06:41:46,393 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,394 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,412 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,414 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,436 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,440 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,461 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,464 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,482 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,484 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,485 - src.backend.querying - INFO - === Outer iteration 88: metric=0.19255542979669338
+2025-10-11 06:41:46,505 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,507 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,528 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,531 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,553 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,555 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,569 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,570 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,586 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,590 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,591 - src.backend.querying - INFO - === Outer iteration 89: metric=0.19255542979669338
+2025-10-11 06:41:46,613 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,617 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,645 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,647 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,667 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,669 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,695 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,698 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,724 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,726 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,726 - src.backend.querying - INFO - === Outer iteration 90: metric=0.19255542979669338
+2025-10-11 06:41:46,747 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,749 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,768 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,769 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,797 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,800 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,825 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,828 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,848 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,850 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,851 - src.backend.querying - INFO - === Outer iteration 91: metric=0.19255542979669338
+2025-10-11 06:41:46,867 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,869 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,886 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,888 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,901 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,903 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,918 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,920 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,936 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,938 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,938 - src.backend.querying - INFO - === Outer iteration 92: metric=0.19255542979669338
+2025-10-11 06:41:46,952 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,954 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,974 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,976 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:46,991 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:46,993 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,008 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,009 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,021 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,022 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,022 - src.backend.querying - INFO - === Outer iteration 93: metric=0.19255542979669338
+2025-10-11 06:41:47,036 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,038 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,054 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,056 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,069 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,070 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,084 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,085 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,098 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,099 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,100 - src.backend.querying - INFO - === Outer iteration 94: metric=0.19255542979669338
+2025-10-11 06:41:47,115 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,117 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,135 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,136 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,156 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,158 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,174 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,178 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,193 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,195 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,195 - src.backend.querying - INFO - === Outer iteration 95: metric=0.19255542979669338
+2025-10-11 06:41:47,208 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,209 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,226 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,228 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,241 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,243 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,258 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,259 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,279 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,281 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,281 - src.backend.querying - INFO - === Outer iteration 96: metric=0.19255542979669338
+2025-10-11 06:41:47,297 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,299 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,318 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,320 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,340 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,342 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,358 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,360 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,379 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,380 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,381 - src.backend.querying - INFO - === Outer iteration 97: metric=0.19255542979669338
+2025-10-11 06:41:47,400 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,402 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
+2025-10-11 06:41:47,425 - src.backend.querying - INFO - SEQ 0.19255542979669338 (gain=0.0)
+2025-10-11 06:41:47,427 - src.backend.querying - WARNING - Group query skipped: Could not find a new Thompson‐sampled group in 50 attempts.
